@@ -1,0 +1,477 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Css */
+
+.navbar-main {
+  background-color: white;
+  height: 90.12px;
+}
+
+.postButton {
+  box-shadow: 0px 5px 10px rgba(7, 6, 6, 0.06);
+  border-radius: 30px;
+  background: #FFFFFF;
+  border: none;
+  padding: 10px;
+}
+
+.Flex {
+  align-items: center;
+}
+
+.Like-btn {
+  position: relative;
+}
+
+.Budge {
+  background-color: white;
+  color: black;
+  border-radius: 100%;
+  height: 25px;
+  width: 19px;
+  text-align: center;
+  position: absolute;
+  right: -20px;
+  top: -15px;
+  box-shadow: 0px 7px 15px rgba(11, 9, 9, 0.08);
+}
+
+
+
+.userPart {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+
+.deliverPart {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  padding-left: 10%;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0B0909;
+}
+
+
+/* Shop Catogary Design */
+
+
+.Bg-image {
+  background-image: url('./assets/Image/Bg.png');
+  background-repeat: no-repeat;
+  margin: 20px;
+  background-size: cover;
+  position: relative;
+  height: 410px;
+
+}
+
+.SearchShop {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SearctBtn {
+  background-color: #43B028;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.InputType {
+  border: none;
+  padding: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 20%;
+}
+
+.catogaryBtn {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  width: 120px;
+  height: 71px;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  margin: 5px;
+}
+
+.catogaryBtnActive {
+  background: linear-gradient(147.67deg, #43B028 24.24%, #FBCE2E 145.04%);
+  border: none;
+  border-radius: 5px;
+  width: 130px;
+  height: 71px;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  margin: 5px;
+  color: white;
+}
+
+.shopName {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.address {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  color: #070606;
+}
+
+.addressFlex {
+  display: flex;
+}
+
+.catogary {
+  margin-top: 5%;
+}
+
+.location {
+  margin-right: 10px;
+  height: 25px;
+  width: 25px;
+}
+
+.shopmain {
+  width: 90%;
+  border: none;
+  margin: 10px;
+
+}
+
+.Review {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ReviewText {
+  color: rgba(7, 6, 6, 0.7);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 15px;
+}
+
+.viewBtn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #43B028;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.pegination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PeginationBtn {
+  background-color: white;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0px 6px 18px rgba(7, 6, 6, 0.1);
+  width: 80px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrowImage {
+  margin: 10px;
+}
+
+.page {
+  background-color: white;
+  border: none;
+  padding: 10px;
+}
+
+.pageActive {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  color: #43B028;
+}
+
+.marketImage {
+  background-image: url('./assets/Image/market.png');
+  background-repeat: no-repeat;
+  margin: 20px;
+  background-size: cover;
+  position: relative;
+  height: 410px;
+  padding: 15px;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shopReview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Star {
+  margin-right: 20px;
+}
+
+.btnCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.more-info {
+  margin-right: 20px;
+  border-radius: 30px !important;
+}
+
+.SearchInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.Tabbar {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.tabBtn {
+  background-color: white;
+  width: 185px;
+  height: 70px;
+  border: none;
+  box-shadow: 0px 0px 30px rgba(67, 176, 40, 0.2);
+  border-radius: 3px;
+  margin: 5px;
+}
+
+.tabBtnActive {
+  background: linear-gradient(147.67deg, #43B028 24.24%, #FBCE2E 145.04%);
+  width: 185px;
+  height: 70px;
+  border: none;
+  box-shadow: 0px 0px 30px rgba(67, 176, 40, 0.2);
+  border-radius: 3px;
+  margin: 5px;
+}
+
+.catogarys {
+  width: fit-content;
+  border-bottom-color: #43B028;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  padding-bottom: 10px;
+}
+
+.ProductImage {
+  margin-right: 20px;
+}
+
+.product-title {
+  font-weight: 600;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  margin: 10px;
+  width: 85%;
+}
+
+.product-price {
+  font-weight: 600;
+  font-size: 22px;
+  font-family: 'Poppins', sans-serif;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.product-kg {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  color: #828282;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.price-main {
+  display: flex;
+  align-items: center;
+}
+
+.add-btn {
+  background-color: #43B028;
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 10px;
+  color: white;
+  width: 94%;
+}
+
+.Productmain {
+  width: 90%;
+  border: none;
+  margin: 10px;
+  min-height: 450px;
+}
+
+.viewMain{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ViewText{
+  color: #43B028;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.View{
+  display: flex;
+  align-items: center;
+}
+
+.Content{
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+
+.imageBtn{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image{
+  cursor: pointer;
+}
+
+.List{
+  border-color: #43B028;
+  border-width: 3px;
+  border-radius: 10px;
+  border-style: solid;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.detail{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ProductChange{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.incriment{
+  border: none;
+  height: 30px;
+  width: 30px;
+  font-size: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #43B028;
+}
+
+
+.close{
+  color: #43B028;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+
+.footermain{
+  background-color: #16161A;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerContent{
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.heading{
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.text{
+  color: #ebebeb;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 10px;
+}
+
+.shop{
+  color: #43B028;
+  font-weight: 600;
+  font-size: 22px;
+  margin-left: 20px;
+}
+
+.total{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 3px solid #43B028;
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 15px;
+}
